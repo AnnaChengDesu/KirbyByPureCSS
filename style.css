@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.code-wrapper {
+    flex: 1;
+    height: 50%;
+    overflow: hidden;
+}
+
+.container {
+    flex: 1;
+    height: 50%;
+    overflow: hidden;
+    background: #3cbcfc;
+    z-index: 0;
+}
+
+#code {
+    overflow: hidden;
+    height: 100%;
+}
