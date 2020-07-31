@@ -12,7 +12,7 @@
                 window.clearInterval(id);
                 fn && fn.call()
             }
-        }, 3)
+        }, 2)
     }
     let code = `
     .kirby {
@@ -118,7 +118,7 @@
         position: absolute;
         content: '';
         bottom: -11px;
-        left: -55px;
+        left: -56px;
         width: 110px;
         height: 55px;
         border-bottom-left-radius: 60px;
@@ -349,6 +349,8 @@
         border-bottom: 26px solid #eb6b8e;
         border-top: 0;
     }
+
+    /* 铛铛铛！一只卡比就画好啦~ */
     `
 
     writeCode(code)
